@@ -10,11 +10,17 @@ Uses Uinput - supports both X and Wayland.
 ### How-to use
 
 Firstly, you need to know what input device is your keyboard  :
+
 `cat /proc/bus/input/devices`
+
 You can check event by :
+
 `sudo cat /dev/input/event6`
+
 Then launch with something like this :
+
 `./mouskee -s -d /dev/input/event6`
+
 Controll mouse with keyboard arrows :  **0 - Right Click** , **5 - Left Click**
 
 ### Code used from
